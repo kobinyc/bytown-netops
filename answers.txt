@@ -1,0 +1,6 @@
+ba859837
+2
+This downloads the teammate's changes and merges them into my local branch before I try pushing again.
+No. Adding secrets.env to .gitignore does not remove it from Git history or stop tracking it if it was already committed.
+git branch -d old-fix
+git push origin --delete old-fix
